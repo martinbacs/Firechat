@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.project.firechat.activities.UserActivity$PlaceholderFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgoundpic" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:text="status"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/devices_search"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/status"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/button"
+        android:text="Devices"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/visibleBtn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/listView2"
+        android:layout_centerHorizontal="true"
+        android:text="Make Visible"
+        android:background="@drawable/button"
+        android:textColor="@android:color/white"/>
+
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/devices_search"
+        android:background="@drawable/trans_white"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <Button
+        android:id="@+id/onOffBtn"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/visibleBtn"
+        android:text="On/Off"
+        android:background="@drawable/button"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

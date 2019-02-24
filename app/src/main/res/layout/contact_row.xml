@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/userProfileImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/defaultProfile"
+        app:srcCompat="@drawable/defaultprofile" />
+
+    <TextView
+        android:id="@+id/userNameText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/userProfileImage"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/userStatusText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userNameText"
+        android:layout_toEndOf="@+id/userProfileImage"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/removeBtn"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/userNameText"
+        android:background="@drawable/button"
+        android:text="@string/remove"
+        android:textColor="@color/colorWhite"/>
+</RelativeLayout>

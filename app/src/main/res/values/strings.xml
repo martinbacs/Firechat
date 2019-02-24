@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FireChat</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="back">Back</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="logout">Logout</string>
+    <string name="accountSettings">Account Settings</string>
+    <string name="allUsers">All Users</string>
+    <string name="userName">Username</string>
+    <string name="sendFriendRequest">Send Friend Request</string>
+    <string name="requestBtn">Friend Request Button</string>
+    <string name="statusUpdate">Status update</string>
+    <string name="save">Save</string>
+    <string name="defaultProfile">defaultProfile</string>
+    <string name="status">Status</string>
+    <string name="changeImage">Change Image</string>
+    <string name="search">Search</string>
+    <string name="title_activity_bluetooth">BluetoothActivity</string>
+    <string name="add">add</string>
+    <string name="send">send</string>
+    <string name="remove">remove</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="facebook_app_id">337214810016408</string>
+    <string name="fb_login_protocol_scheme">fb337214810016408</string>
+    <string name="shareBtn">Share</string>
+
+</resources>
