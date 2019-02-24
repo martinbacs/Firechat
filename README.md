@@ -8,7 +8,8 @@ Programming language: Java
 
 ## Description
 ```
-A realtime chat application developed for Android smartphones on the Google Firebase platform. The development group included four students and was developed during the course Mobile Applications at Högskolan Kristianstad. 
+A realtime chat application developed for Android smartphones on the Google Firebase platform.
+The development group included four students and was developed during the course Mobile Applications at Högskolan Kristianstad. 
 ```
 
 ## Learning outcomes
