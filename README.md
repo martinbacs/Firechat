@@ -14,7 +14,6 @@ The development group included four students and was developed during the course
 
 ## Learning outcomes
 ```
-Learning outcomes
 *Google Firebase platform
 *Realtime database
 *Facebook SDK
@@ -24,6 +23,6 @@ Learning outcomes
 ```
 
 # Login & Profile settings
-<img src="images/firechat_login.png" width=50% height=50%><img src="images/firechat_profilesettings.PNG" width=50% height=50%>
+<img src="images/firechat_login.png">&emsp;<img src="images/firechat_profilesettings.PNG">
 # Contacts & Chat
-<img src="images/firechat_contacts.PNG" width=50% height=50%><img src="images/firechat_chat.PNG" width=50% height=50%>
+<img src="images/firechat_contacts.PNG">&emsp;<img src="images/firechat_chat.PNG">
